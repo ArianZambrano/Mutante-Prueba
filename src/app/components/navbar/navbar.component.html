@@ -1,0 +1,40 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container d-flex justify-content-between">
+        <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+            IVERCASA
+        </a>
+        <div [ngbCollapse]="isCollapsed" class="collapse navbar-collapse d-flex" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item mx-3">
+                    <a class="nav-link active" aria-current="page" href="#">
+                        Empresa
+                    </a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link active" aria-current="page" href="#">
+                        Blog
+                    </a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link active" aria-current="page" href="#">
+                        Favoritos
+                    </a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link active" aria-current="page" href="#">
+                        Contáctenos
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="text-white">
+            <i class="fa fa-phone mx-3"></i>
+            <span class="nav-item" aria-current="page" href="#">
+                958 123 123
+            </span>
+        </div>
+    </div>
+</nav>
