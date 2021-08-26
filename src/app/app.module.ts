@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { LandingComponent } from './components/landing/landing.component';
 import { FormLandingComponent } from './components/form-landing/form-landing.component';
+import { OutsandingComponent } from './components/outsanding/outsanding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     LandingComponent,
-    FormLandingComponent
+    FormLandingComponent,
+    OutsandingComponent
   ],
   imports: [
     BrowserModule,
