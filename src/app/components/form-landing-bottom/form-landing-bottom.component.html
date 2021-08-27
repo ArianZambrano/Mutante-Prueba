@@ -1,0 +1,84 @@
+<div class="container">
+    <div class="bg-form pb-4 rounded">
+        <div class="d-flex">
+            <p class="bg-dark text-white mx-2 py-2 px-5 h-75 rounded-bottom">
+                En Venta
+            </p>
+            <p class="mx-2 py-2">
+                Alquiler
+            </p>
+        </div>
+        <form class="mx-4">
+            <div class="form-group mb-3">
+                <label for="busquedaAvanzada" class="mb-3">
+                    Búsqueda Avanzada
+                </label>
+                <div class="d-flex mb-3">
+                    <input type="text" class="form-control border-right-0 border" id="inputAddress2"
+                        name="busquedaAvanzada" placeholder="Departamento o distrito">
+                    <span class="input-group-append input">
+                        <div class="input-group-text bg-transparent">
+                            <i class="fa fa-search my-2"></i>
+                        </div>
+                    </span>
+                </div>
+                <button class="btn btn-dark btn-block" type="submit">
+                    Ver Mapa
+                </button>
+            </div>
+            <div class="form-group mb-3">
+                <label for="tipoDePropiedad" class="mb-3">
+                    Tipo de Propiedad
+                </label>
+                <select id="todos" class="form-select mb-3">
+                    <option selected>Todos</option>
+                    <option>...</option>
+                </select>
+                <select id="ciudad" class="form-select mb-3">
+                    <option selected>Ciudad</option>
+                    <option>...</option>
+                </select>
+                <select id="area" class="form-select mb-3">
+                    <option selected>Área</option>
+                    <option>...</option>
+                </select>
+            </div>
+            <div class="form-group mb-4">
+                <label for="dormitorios" class="mb-4">
+                    Dormitorios
+                </label>
+                <div class="d-flex">
+                    <select id="maximos" class="form-select mb-3 mx-1">
+                        <option selected>Máximos</option>
+                        <option>...</option>
+                    </select>
+                    <select id="minimos" class="form-select mb-3 mx-1">
+                        <option selected>Mínimos</option>
+                        <option>...</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group mb-4">
+                <label for="precios" class="mb-4">
+                    Precios
+                </label>
+                <div class="d-flex">
+                    <select id="desde" class="form-select mb-3 mx-1">
+                        <option selected>Desde</option>
+                        <option>...</option>
+                    </select>
+                    <select id="hasta" class="form-select mx-1 mb-3">
+                        <option selected>Hasta</option>
+                        <option>...</option>
+                    </select>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                    <label class="form-check-label" for="gridRadios2">
+                        Incluir mantenimiento en el precios final
+                    </label>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

@@ -8,6 +8,9 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { LandingComponent } from './components/landing/landing.component';
 import { FormLandingComponent } from './components/form-landing/form-landing.component';
 import { OutsandingComponent } from './components/outsanding/outsanding.component';
+import { LandingBottomComponent } from './components/landing-bottom/landing-bottom.component';
+import { FormLandingBottomComponent } from './components/form-landing-bottom/form-landing-bottom.component';
+import { EstatesComponent } from './components/estates/estates.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { OutsandingComponent } from './components/outsanding/outsanding.componen
     NavbarComponent,
     LandingComponent,
     FormLandingComponent,
-    OutsandingComponent
+    OutsandingComponent,
+    LandingBottomComponent,
+    FormLandingBottomComponent,
+    EstatesComponent
   ],
   imports: [
     BrowserModule,
